@@ -1,0 +1,15 @@
+The employee node class represents a single employee in the organization while each node stores the 
+employee’s information, name, and references the subordinate position in the organizational chart. 
+Initially, both subordinate positions are set to none. The TeamTree class handles the organization’s 
+hierarchy; when a tree is created, the root node is established to represent the team lead. Insert() 
+searches for a specific manager in the tree. After it finds that manager, the new employee can be added 
+to the left or right subordinate of that manager. If that position is taken already, a message is returned 
+to the user. Print_tree() displays the reporting structure in a hierarchical format. Each level is indented, 
+making visual relationships easy to determine the relationship between manager and employees. The CLI, or 
+command-line interface provides the menu-driven format that allows users to add team leads, new employees 
+and to print the team structure. 
+The challenges I faced were the small fixes in my coding that proved difficult to figure out what was going 
+wrong; applying the code from the examples was helpful, but I was able to use my resources to troubleshoot 
+each error code until it finally worked. Trees are also great for organizing computer files. Think about file 
+locations, start with your local drive, which contains folders, which contain files, which contain documents, 
+each on a subordinating hierarchy.
